@@ -10,5 +10,10 @@ hasher.write(await readFile("package.json"));
 hasher.end();
 
 const fileHash = hasher.read();
+console.log(
+  "%c [ fileHash ]-13",
+  "font-size:13px; background:pink; color:#bf2c9f;",
+  fileHash
+);
 
 // run with `node crypto.mjs`
