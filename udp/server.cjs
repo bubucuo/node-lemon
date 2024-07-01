@@ -12,4 +12,5 @@ server.on("listening", function () {
   console.log("server listening " + address.address + ":" + address.port);
 });
 
+// 服务端 41234 端口
 server.bind(41234);
